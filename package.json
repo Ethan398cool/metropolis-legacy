@@ -1,0 +1,11 @@
+{ 
+  "name": "metropolis-legacy-prototype",
+  "version": "0.1.0",
+  "description": "Three.js prototype for Metropolis Legacy",
+  "scripts": {
+    "start": "npx http-server . -p 8080"
+  },
+  "author": "Ethan398cool",
+  "license": "MIT",
+  "dependencies": {}
+}

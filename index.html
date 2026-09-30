@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Metropolis Legacy — Prototype</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div id="hud">
+      <div id="district">District Integrity: <span id="district-val">100</span>%</div>
+      <div id="restraint">Restraint: <span id="restraint-val">100</span></div>
+      <div id="civ-stats">Saved: <span id="saved-val">0</span>/<span id="total-val">0</span></div>
+      <div id="message" class="hidden"></div>
+      <div id="controls">Controls: WASD move, Space/Ctrl ascend/descend, Shift dash, F Precision Mode, LMB strike, RMB catch/redirect, R pick-up/drop civilian</div>
+    </div>
+
+    <canvas id="c"></canvas>
+
+    <script type="module">
+      import { start } from './src/main.js';
+      start();
+    </script>
+  </body>
+</html>
